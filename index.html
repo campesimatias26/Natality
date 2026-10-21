@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Natality — Un futuro mejor</title>
+  
+  
+  <link rel="stylesheet" href="style.css">
+  
+  <script src="https://unpkg.com/lucide@0.383.0/dist/umd/lucide.min.js"></script>
+</head>
+<body>
+
+
+  <div class="top-banner">
+    <i data-lucide="info" class="icon-sm text-blue"></i>
+    <span>Propuesta conceptual de política pública e investigación demográfica. No es un programa estatal vigente.</span>
+  </div>
+
+
+  <header class="navbar">
+    <div class="container navbar-content">
+      <a href="#" class="brand">
+        <img src="img/Natality.png" alt="Natality Logo" id="logo-natality">
+        <div class="brand-text">
+          <span class="brand-name">NATALITY</span>
+          <span class="brand-tagline">Un futuro mejor</span>
+        </div>
+      </a>
+
+      <nav class="nav-links" id="nav-links">
+        <a href="#desafio">El Desafío</a>
+        <a href="#propuesta">La Propuesta</a>
+        <a href="#proceso">Cómo Funciona</a>
+        <a href="#simulador">Simulador</a>
+        <a href="#registro">Registro</a>
+        <a href="#faq">Preguntas Frecuentes</a>
+      </nav>
+
+      <div class="navbar-actions">
+        <a href="#registro" class="btn btn-primary btn-sm">Registrarme <i data-lucide="arrow-right" class="icon-sm"></i></a>
+      </div>
+
+      <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menú">
+        <i data-lucide="menu" id="menu-icon"></i>
+      </button>
+    </div>
+  </header>
+
+  
+  <section class="hero-section">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <div class="badge">
+          <span class="badge-dot"></span>
+          Iniciativa Institucional Argentina
+        </div>
+
+        <h1 class="hero-title">
+          Garantizar las condiciones para las <span class="text-primary">próximas generaciones</span>.
+        </h1>
+
+        <p class="hero-description">
+          Natality promueve una política de Estado integral que remueve las barreras económicas y sociales para que formar o ampliar una familia sea una elección respaldada, segura y viable en Argentina.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#propuesta" class="btn btn-primary">Conocé el proyecto</a>
+          <a href="#registro" class="btn btn-outline">Quiero registrarme</a>
+        </div>
+
+        <div class="hero-stats">
+          <div class="stat-item">
+            <div class="stat-number">4 Pilares</div>
+            <div class="stat-label">Cobertura Integral</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">100%</div>
+            <div class="stat-label">Universalidad</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">100%</div>
+            <div class="stat-label">Voluntario</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-image-wrapper">
+        <div class="image-card">
+          <img src="https://images.unsplash.com/photo-1542037104857-ffbb0b9155fb?auto=format&fit=crop&w=800&q=80" alt="Familia en el parque">
+          <div class="image-overlay">
+            <div class="overlay-badge">
+              <i data-lucide="check-circle" class="icon-sm"></i>
+              <span>Resguardo y Oportunidades</span>
+            </div>
+            <p>Acompañamiento integral en educación, salud e ingresos desde la infancia.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+ 
+  <section id="desafio" class="section section-white">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Contexto Demográfico</span>
+        <h2 class="section-title">El desafío de construir un futuro sostenible</h2>
+        <p class="section-desc">
+          Durante las últimas décadas, la tasa de natalidad en Argentina ha experimentado variaciones significativas. Natality analiza este contexto para estructurar respuestas de acompañamiento real.
+        </p>
+      </div>
+
+      <div class="grid grid-3">
+        <div class="card card-flat">
+          <div class="icon-box icon-primary">
+            <i data-lucide="trending-down"></i>
+          </div>
+          <h3>Evolución de Nacimientos</h3>
+          <p>Tendencia a la baja en la tasa de fecundidad que afecta la estructura poblacional de las futuras décadas.</p>
+          <span class="caption">* Dato ilustrativo para análisis cualitativo</span>
+        </div>
+
+        <div class="card card-flat">
+          <div class="icon-box icon-accent">
+            <i data-lucide="users"></i>
+          </div>
+          <h3>Tamaño Familiar Promedio</h3>
+          <p>Transformación en las composiciones familiares debido a restricciones presupuestarias y de infraestructura social.</p>
+          <span class="caption">* Dato ilustrativo para análisis cualitativo</span>
+        </div>
+
+        <div class="card card-flat">
+          <div class="icon-box icon-dark">
+            <i data-lucide="calculator"></i>
+          </div>
+          <h3>Sostenibilidad del Sistema</h3>
+          <p>Necesidad de equilibrar la pirámide poblacional para asegurar la sostenibilidad del desarrollo socioeconómico.</p>
+          <span class="caption">* Dato ilustrativo para análisis cualitativo</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="propuesta" class="section section-light">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Nuestra Propuesta</span>
+        <h2 class="section-title">Un sistema integral de apoyo</h2>
+        <p class="section-desc">
+          Propuestas concretas organizadas en cuatro ejes fundamentales para remover los obstáculos económicos y sociales de la crianza.
+        </p>
+      </div>
+
+      <div class="grid grid-4">
+
+        <div class="pillar-card">
+          <div class="pillar-img-box">
+            <img src="https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&w=600&q=80" alt="Incentivo Económico">
+            <div class="pillar-icon"><i data-lucide="coins"></i></div>
+          </div>
+          <div class="pillar-body">
+            <h3>Incentivo Económico Directo</h3>
+            <p>Asistencia financiera directa para planificar y sostener la crianza con tranquilidad.</p>
+          </div>
+          <div class="pillar-footer">
+            <button class="btn btn-secondary btn-block open-modal" data-pillar="0">Conocer más <i data-lucide="chevron-right" class="icon-sm"></i></button>
+          </div>
+        </div>
+
+
+        <div class="pillar-card">
+          <div class="pillar-img-box">
+            <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=600&q=80" alt="Educación Pública">
+            <div class="pillar-icon"><i data-lucide="book-open"></i></div>
+          </div>
+          <div class="pillar-body">
+            <h3>Educación Pública de Calidad</h3>
+            <p>Garantía de acceso prioritario y universal a centros educativos y cuidado integral.</p>
+          </div>
+          <div class="pillar-footer">
+            <button class="btn btn-secondary btn-block open-modal" data-pillar="1">Conocer más <i data-lucide="chevron-right" class="icon-sm"></i></button>
+          </div>
+        </div>
+
+
+        <div class="pillar-card">
+          <div class="pillar-img-box">
+            <img src="https://images.unsplash.com/photo-1584515979956-d9f6e5d09982?auto=format&fit=crop&w=600&q=80" alt="Salud Pública">
+            <div class="pillar-icon"><i data-lucide="heart"></i></div>
+          </div>
+          <div class="pillar-body">
+            <h3>Salud Pública Integral</h3>
+            <p>Cobertura médica garantizada antes, durante y después del nacimiento del infante.</p>
+          </div>
+          <div class="pillar-footer">
+            <button class="btn btn-secondary btn-block open-modal" data-pillar="2">Conocer más <i data-lucide="chevron-right" class="icon-sm"></i></button>
+          </div>
+        </div>
+
+
+        <div class="pillar-card">
+          <div class="pillar-img-box">
+            <img src="https://images.unsplash.com/photo-1511895426328-dc8714191300?auto=format&fit=crop&w=600&q=80" alt="Cobertura de Gastos">
+            <div class="pillar-icon"><i data-lucide="shield-check"></i></div>
+          </div>
+          <div class="pillar-body">
+            <h3>Cobertura Integral de Gastos</h3>
+            <p>Respaldo directo en bienes esenciales para asegurar una crianza digna y sana.</p>
+          </div>
+          <div class="pillar-footer">
+            <button class="btn btn-secondary btn-block open-modal" data-pillar="3">Conocer más <i data-lucide="chevron-right" class="icon-sm"></i></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <section id="proceso" class="section section-white">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Implementación Hipotética</span>
+        <h2 class="section-title">¿Cómo funcionaría el programa?</h2>
+        <p class="section-desc">Un flujo de acceso ágil, digital e inclusivo para acompañar a las personas en cada etapa.</p>
+      </div>
+
+      <div class="grid grid-4">
+        <div class="step-card">
+          <span class="step-number">01</span>
+          <h3>Registro</h3>
+          <p>La persona o familia completa su consulta digital en la plataforma.</p>
+        </div>
+        <div class="step-card">
+          <span class="step-number">02</span>
+          <h3>Evaluación</h3>
+          <p>El sistema evalúa los requisitos y cruza la orientación de cobertura.</p>
+        </div>
+        <div class="step-card">
+          <span class="step-number">03</span>
+          <h3>Acceso a Beneficios</h3>
+          <p>Activación de programas económicos, de salud y educativos.</p>
+        </div>
+        <div class="step-card">
+          <span class="step-number">04</span>
+          <h3>Acompañamiento</h3>
+          <p>Seguimiento institucional durante las diferentes etapas del desarrollo.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="simulador" class="section section-dark">
+    <div class="container grid grid-12">
+      <div class="col-5">
+        <span class="section-subtitle text-accent">Herramienta Interactiva</span>
+        <h2 class="section-title text-white">Simulá tu acompañamiento</h2>
+        <p class="text-slate-400">
+          Seleccioná tu situación actual para previsualizar los ejes de respaldo contemplados en este modelo conceptual.
+        </p>
+
+        <div class="sim-controls">
+          <div class="form-group">
+            <label>Cantidad de hijos</label>
+            <div class="btn-group-children">
+              <button class="btn-chip active" data-children="1">1</button>
+              <button class="btn-chip" data-children="2">2</button>
+              <button class="btn-chip" data-children="3">3</button>
+              <button class="btn-chip" data-children="4">4 +</button>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="sim-condition">Estado / Situación</label>
+            <select id="sim-condition" class="select-input">
+              <option value="embarazo">Búsqueda / Embarazo en curso</option>
+              <option value="primera_infancia">Hijos en primera infancia (0-5 años)</option>
+              <option value="escolar">Hijos en edad escolar (6-17 años)</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-7">
+        <div class="sim-results-card">
+          <div class="sim-results-header">
+            <h3>Resumen de simulación ilustrativa</h3>
+            <span class="tag-accent">Ejemplo referencial</span>
+          </div>
+
+          <div class="grid grid-2 gap-md">
+            <div class="sim-stat-box">
+              <span class="stat-title">Incentivo Estimado</span>
+              <span class="stat-value text-emerald" id="sim-amount">$150.000 / mes</span>
+              <span class="stat-note">*Monto simulado para fines pedagógicos</span>
+            </div>
+
+            <div class="sim-stat-box">
+              <span class="stat-title">Cobertura Médica</span>
+              <span class="stat-value text-white-sm" id="sim-health">Plan Maternal + Pediatría 100%</span>
+            </div>
+
+            <div class="sim-stat-box">
+              <span class="stat-title">Educación</span>
+              <span class="stat-value text-white-sm" id="sim-edu">Vacante Garantizada + Kit Escolar</span>
+            </div>
+
+            <div class="sim-stat-box">
+              <span class="stat-title">Asistencia Integral</span>
+              <span class="stat-value text-white-sm" id="sim-care">Subsidio Servicios y Canasta Básica</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <section id="registro" class="section section-light">
+    <div class="container container-sm">
+      <div class="section-header">
+        <span class="section-subtitle">Módulo de Consulta</span>
+        <h2 class="section-title">¿Querés conocer si podrías acceder a Natality?</h2>
+        <p class="section-desc">Completá esta breve consulta interactiva paso a paso para evaluar tu nivel de orientación.</p>
+      </div>
+
+      <div class="wizard-card">
+        
+        <form id="wizard-form">
+          <div class="wizard-progress">
+            <div class="wizard-progress-header">
+              <span id="wizard-step-indicator">Paso 1 de 4</span>
+              <span id="wizard-percent-indicator">25% completado</span>
+            </div>
+            <div class="progress-bar-bg">
+              <div class="progress-bar-fill" id="wizard-progress-bar" style="width: 25%;"></div>
+            </div>
+          </div>
+
+          <!-- Paso 1 -->
+          <div class="wizard-step active" data-step="1">
+            <h3>Paso 1: Sobre vos</h3>
+            <div class="form-group">
+              <label>Edad</label>
+              <input type="number" required placeholder="Ej: 30" class="text-input" id="input-age">
+            </div>
+            <div class="form-group">
+              <label>Provincia</label>
+              <select required class="select-input" id="input-province">
+                <option value="">Seleccionar Provincia</option>
+                <option value="Buenos Aires">Buenos Aires</option>
+                <option value="CABA">CABA</option>
+                <option value="Córdoba">Córdoba</option>
+                <option value="Santa Fe">Santa Fe</option>
+                <option value="Mendoza">Mendoza</option>
+                <option value="Otra">Otra Provincia</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- Paso 2 -->
+          <div class="wizard-step" data-step="2">
+            <h3>Paso 2: Tu familia</h3>
+            <div class="form-group">
+              <label>Cantidad de hijos actuales</label>
+              <input type="number" required value="0" class="text-input" id="input-children">
+            </div>
+            <div class="form-group">
+              <label>¿Estás planificando tener un hijo/a pronto?</label>
+              <select required class="select-input" id="input-planning">
+                <option value="">Seleccionar opción</option>
+                <option value="si">Sí, en los próximos 12 meses</option>
+                <option value="mediano">Sí, a mediano plazo</option>
+                <option value="no">No por el momento</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- Paso 3 -->
+          <div class="wizard-step" data-step="3">
+            <h3>Paso 3: Tu situación socio-laboral</h3>
+            <div class="form-group">
+              <label>Situación laboral actual</label>
+              <select required class="select-input" id="input-employment">
+                <option value="">Seleccionar opción</option>
+                <option value="dependencia">Empleado en relación de dependencia</option>
+                <option value="independiente">Monotributista / Independiente</option>
+                <option value="desempleado">Búsqueda laboral activa</option>
+                <option value="estudiante">Estudiante / Cuidadores</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- Paso 4 -->
+          <div class="wizard-step" data-step="4">
+            <h3>Paso 4: Principal necesidad de apoyo</h3>
+            <div class="form-group">
+              <label>¿En qué área considerás más crítico el apoyo?</label>
+              <select required class="select-input" id="input-need">
+                <option value="">Seleccionar opción</option>
+                <option value="incentivo">Apoyo económico para crianza</option>
+                <option value="salud">Cobertura de salud materna y pediátrica</option>
+                <option value="educacion">Espacios educativos y cuidado de 0 a 3 años</option>
+                <option value="vivienda">Incentivos para vivienda y servicios</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="wizard-buttons">
+            <button type="button" class="btn btn-secondary" id="btn-prev-step" style="display: none;">Anterior</button>
+            <button type="button" class="btn btn-primary" id="btn-next-step">Siguiente</button>
+          </div>
+        </form>
+
+        <!-- Resultado Wizard (Oculto inicialmente) -->
+        <div id="wizard-result" style="display: none;" class="wizard-result-box">
+          <div class="success-icon">
+            <i data-lucide="check-circle"></i>
+          </div>
+          <h3>Consulta Completada</h3>
+          <p>Gracias por participar. Según los datos ingresados, estos serían los programas proyectados más adecuados para tu perfil:</p>
+
+          <div class="grid grid-2 gap-sm text-left">
+            <div class="result-card">
+              <h4>Incentivo Económico Directo</h4>
+              <p>Asistencia prioritaria para soporte mensual de crianza.</p>
+            </div>
+            <div class="result-card">
+              <h4>Red de Salud Pediátrica</h4>
+              <p>Cobertura integral de seguimiento de desarrollo.</p>
+            </div>
+          </div>
+
+          <div class="disclaimer-box">
+            <strong>Aviso legal:</strong> Este resultado es puramente orientativo y didáctico. No otorga ni garantiza la aprobación real de ningún beneficio oficial.
+          </div>
+
+          <button class="btn btn-secondary" id="btn-reset-wizard">Realizar otra consulta</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROPÓSITO BANNER CON FONDO -->
+  <section class="banner-purpose">
+    <img src="https://images.unsplash.com/photo-1491438590914-bc09fcaaf77a?auto=format&fit=crop&w=1600&q=80" alt="Familias" class="banner-bg">
+    <div class="container banner-purpose-content">
+      <span class="section-subtitle text-accent">Nuestro Propósito</span>
+      <h2>"Creemos en un futuro donde formar una familia no sea un privilegio."</h2>
+      <p>
+        El propósito central de Natality es reducir las brechas socioeconómicas y asegurar que el deseo de formar o agrandar una familia cuente con el respaldo firme y coordinado de la comunidad y del Estado.
+      </p>
+    </div>
+  </section>
+
+  <!-- PREGUNTAS FRECUENTES -->
+  <section id="faq" class="section section-light">
+    <div class="container container-sm">
+      <div class="section-header">
+        <span class="section-subtitle">Aclaraciones e Información</span>
+        <h2 class="section-title">Preguntas Frecuentes</h2>
+      </div>
+
+      <div class="faq-list">
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>¿Qué es Natality?</span>
+            <i data-lucide="chevron-down" class="faq-icon"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Natality es una propuesta conceptual de política pública pensada para visibilizar la necesidad de que el Estado acompañe la natalidad y la crianza en Argentina. Reúne cuatro ejes de apoyo (incentivo económico, educación, salud y cobertura de gastos) que buscan que tener o agrandar una familia sea una decisión viable, sin depender de la situación económica de cada hogar.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>¿El programa ya existe de forma oficial?</span>
+            <i data-lucide="chevron-down" class="faq-icon"></i>
+          </button>
+          <div class="faq-answer">
+            <p>No. Natality es un proyecto y modelo de análisis desarrollado con fines informativos y de investigación. No representa un programa estatal vigente, y las cifras y montos que aparecen en el simulador son ilustrativos y sirven solo para pensar el diseño de la propuesta.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>¿Natality obliga a las personas a tener hijos?</span>
+            <i data-lucide="chevron-down" class="faq-icon"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Para nada. Natality es una propuesta de apoyo para quienes desean formar o agrandar su familia, y no establece ninguna obligación. Respeta de manera incondicional la libertad individual, la diversidad de proyectos de vida y los derechos reproductivos de cada persona, incluido el derecho a no tener hijos.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>¿Quiénes podrían acceder a los beneficios?</span>
+            <i data-lucide="chevron-down" class="faq-icon"></i>
+          </button>
+          <div class="faq-answer">
+            <p>El modelo está pensado para personas y familias residentes en Argentina que estén en etapa de búsqueda, embarazo o crianza de hijos de 0 a 17 años. La prioridad se daría a los hogares con mayores necesidades económicas, aunque el acceso a los servicios de salud y educación sería universal. La consulta del módulo de registro es orientativa y no define elegibilidad.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>¿Cómo se financiaría un programa de esta magnitud?</span>
+            <i data-lucide="chevron-down" class="faq-icon"></i>
+          </button>
+          <div class="faq-answer">
+            <p>El modelo plantea tres fuentes principales: la reasignación estratégica de partidas presupuestarias existentes, la optimización de fondos de inversión social y la creación de un fideicomiso público destinado al desarrollo de capital humano a largo plazo. Cualquier estimación de costo requeriría un estudio fiscal detallado antes de su implementación.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>¿Mis datos quedan guardados si completo la consulta?</span>
+            <i data-lucide="chevron-down" class="faq-icon"></i>
+          </button>
+          <div class="faq-answer">
+            <p>La consulta del módulo de registro es una herramienta de demostración: la información que ingresás se usa solo para mostrar el resultado en pantalla y no se envía a ningún organismo oficial. Te recomendamos no cargar datos personales sensibles mientras el prototipo siga en su etapa conceptual.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MODAL DE PILARES -->
+  <div class="modal-backdrop" id="modal-pillar">
+    <div class="modal-box">
+      <div class="modal-header-img">
+        <img id="modal-img" src="" alt="Pilar">
+        <button class="modal-close" id="modal-close"><i data-lucide="x"></i></button>
+      </div>
+      <div class="modal-body">
+        <h3 id="modal-title">Título Pilar</h3>
+        <p id="modal-desc">Descripción del pilar...</p>
+
+        <h4>Medidas contempladas:</h4>
+        <ul id="modal-list" class="modal-list"></ul>
+
+        <div class="modal-footer">
+          <button class="btn btn-dark" id="modal-btn-close">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <div class="brand">
+          <img src="img/Natality.png" alt="Natality Logo" class="footer-logo-img">
+          <span class="brand-name text-white">NATALITY</span>
+        </div>
+        <p>Propuesta conceptual e investigativa orientada a promover políticas públicas integrales para el desarrollo de la natalidad y la infancia en Argentina.</p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Navegación</h4>
+        <ul>
+          <li><a href="#desafio">El Desafío</a></li>
+          <li><a href="#propuesta">La Propuesta</a></li>
+          <li><a href="#proceso">Cómo Funciona</a></li>
+          <li><a href="#simulador">Simulador</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Módulos</h4>
+        <ul>
+          <li><a href="#registro">Consulta y Registro</a></li>
+          <li><a href="#faq">Preguntas Frecuentes</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Contacto Institucional</h4>
+        <p>Para consultas académicas o institucionales sobre este prototipo conceptual de investigación demográfica.</p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>Natality es un proyecto conceptual de intervención estatal desarrollado con fines informativos, analíticos y de concientización social. No representa un programa oficial activo.</p>
+      <p>© 2026 Natality — Un futuro mejor. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- ARCHIVO DE JAVASCRIPT EXTERNO -->
+  <script src="script.js"></script>
+</body>
+</html>
